@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const userdb = process.env.USER_DB || root;
+const userdb = process.env.USER_DB || "root";
 const passdb = process.env.PASS_DB || "";
 
 const connectDB = async () => {
